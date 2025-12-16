@@ -1,0 +1,27 @@
+:root {
+  /* === COLORS === */
+
+  --background-color-dark-theme: #0e1014;
+  --background-color-light-theme: #ffffff;
+
+  --text-color-dark-theme: #ffffff;
+  --text-color-light-theme: #232323;
+
+  --highlight-color: #9747ff;
+
+  --hover-color: #8233e8;
+
+  /* === TIPOGRAFIA === */
+
+  --font-poppins: "Poppins", sans-serif;
+  --font-unbounded: "Unbounded", sans-serif;
+
+  --font-size-sm: 1.25rem;
+  --font-size-base: 1.5rem;
+  --font-size-2xl: 2.5rem;
+  --font-size-3xl: 4rem;
+
+  --font-weight-normal: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+}

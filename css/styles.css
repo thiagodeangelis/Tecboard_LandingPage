@@ -1,0 +1,99 @@
+@import url(global.css);
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    color: var(--text-color-dark-theme);
+    background-color: var(--background-color-dark-theme);
+
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+
+    display: block;
+    margin: 32px 0 60px 16px ;
+
+}
+
+header div.theme  {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: var(--background-color-light-theme);
+    margin: 32px 17px 54px 0;
+}
+
+div.theme img {
+    margin: 0 auto;
+    padding-top:  9px;
+}
+
+main {
+
+    margin: 0 17px;
+}
+
+.text {
+
+    text-align: center;
+    color: var(--text-color-dark-theme);
+}
+
+.text h1 {
+    font-family: var(--font-unbounded);
+    font-size: var(--font-size-2xl);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: 24px;
+}
+
+.text span {
+
+    color: var(--highlight-color);
+}
+
+.text p {
+
+    font-family: var(--font-poppins);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-normal);
+    margin-bottom: 40px;
+
+}
+
+main a {
+
+    display: block;
+    text-align: center;
+    margin: 0 auto 40px;
+    padding-top: 20px;
+    width: 251px;
+    height: 66px;
+    border-radius: 36px;
+    background-color: var(--highlight-color);
+    text-decoration: none;
+    color: var(--text-color-dark-theme);
+    font-family: var(--font-poppins);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-semibold);
+
+
+}
+
+main img {
+    display: block;
+
+    margin: 0 auto 45px;
+}

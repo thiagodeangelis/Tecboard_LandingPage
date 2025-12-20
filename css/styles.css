@@ -70,7 +70,7 @@ main img {
   margin: 0 auto 45px;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   header {
     justify-content: space-between;
     margin: 65px 60px 72px 60px;
@@ -109,3 +109,72 @@ main img {
 
 }
 }
+
+
+@media (max-width: 1440px) {
+
+
+
+
+    header {
+        width: 100%;
+        margin: 0;
+        
+       
+     }
+
+     header .header-container {
+
+        width: 1200px;
+        display: flex;
+        justify-content: space-between;
+         margin: 70px 0 60px;
+     }
+
+     .text {
+    
+    width: 792px;
+    height: 254px;
+    
+    
+    margin: 0 335px 40px;
+   
+    
+  }
+
+  .text h1 {
+    width: 792px;
+    height: 158px;
+    margin: 0 0 24px;
+    font-size: var(--font-size-3xl);
+    line-height: auto;
+  }
+
+  .text p {
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-normal);
+    width: 100%;
+    margin: 0;
+  }
+
+   main a {
+    padding-top: 15px;
+    width: 340px;
+    height: 66px;
+    font-size: var(--font-size-base);
+  }
+
+  a:hover {
+
+    background-color: var(--hover-color);
+    cursor: pointer;
+  }
+
+  main img {
+  width: 792px;
+    height: 446px;
+
+}
+
+  
+}  

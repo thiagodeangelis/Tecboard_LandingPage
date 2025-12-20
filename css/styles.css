@@ -11,41 +11,34 @@ body {
 
     color: var(--text-color-dark-theme);
     background-color: var(--background-color-dark-theme);
-    width: 375px;
-    height: 840px;
+    
 
 }
 
 
 header {
+    
     display: flex;
     justify-content: space-around;
     margin: 32px 0 60px 0;
 }
 
 
-
-
-
-
-main {
-
-    width: 341px;
-    height: 671px;
-    margin: 0 17px;
-}
-
 .text {
+    width: 341px;
+    height: 294px;
 
     text-align: center;
     color: var(--text-color-dark-theme);
+    margin-bottom: 40px;
 }
 
 .text h1 {
     font-family: var(--font-unbounded);
     font-size: var(--font-size-2xl);
     font-weight: var(--font-weight-bold);
-    margin-bottom: 24px;
+     width: 341px;
+    margin: 0 17px 24px;
 }
 
 .text span {
@@ -58,7 +51,9 @@ main {
     font-family: var(--font-poppins);
     font-size: var(--font-size-sm);
     font-weight: var(--font-weight-normal);
-    margin-bottom: 40px;
+    width: 341px;
+    margin: 0 17px;
+    
 
 }
 
@@ -86,3 +81,4 @@ main img {
 
     margin: 0 auto 45px;
 }
+

@@ -1,84 +1,111 @@
 @import url(global.css);
 
-*{
-
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-
-    color: var(--text-color-dark-theme);
-    background-color: var(--background-color-dark-theme);
-    
-
+  color: var(--text-color-dark-theme);
+  background-color: var(--background-color-dark-theme);
 }
-
 
 header {
-    
-    display: flex;
-    justify-content: space-around;
-    margin: 32px 0 60px 0;
+  display: flex;
+  justify-content: space-around;
+  margin: 32px 0 60px 0;
 }
 
-
 .text {
-    width: 341px;
-    height: 294px;
+  width: 341px;
+  height: 294px;
 
-    text-align: center;
-    color: var(--text-color-dark-theme);
-    margin-bottom: 40px;
+  text-align: center;
+  color: var(--text-color-dark-theme);
+  margin-bottom: 40px;
 }
 
 .text h1 {
-    font-family: var(--font-unbounded);
-    font-size: var(--font-size-2xl);
-    font-weight: var(--font-weight-bold);
-     width: 341px;
-    margin: 0 17px 24px;
+  font-family: var(--font-unbounded);
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  width: 341px;
+  margin: 0 17px 24px;
 }
 
 .text span {
-
-    color: var(--highlight-color);
+  color: var(--highlight-color);
 }
 
 .text p {
-
-    font-family: var(--font-poppins);
-    font-size: var(--font-size-sm);
-    font-weight: var(--font-weight-normal);
-    width: 341px;
-    margin: 0 17px;
-    
-
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-normal);
+  width: 341px;
+  margin: 0 17px;
 }
 
 main a {
-
-    display: block;
-    text-align: center;
-    margin: 0 auto 40px;
-    padding-top: 20px;
-    width: 251px;
-    height: 66px;
-    border-radius: 36px;
-    background-color: var(--highlight-color);
-    text-decoration: none;
-    color: var(--text-color-dark-theme);
-    font-family: var(--font-poppins);
-    font-size: var(--font-size-sm);
-    font-weight: var(--font-weight-semibold);
-
-
+  display: block;
+  text-align: center;
+  margin: 0 auto 40px;
+  padding-top: 20px;
+  width: 251px;
+  height: 66px;
+  border-radius: 36px;
+  background-color: var(--highlight-color);
+  text-decoration: none;
+  color: var(--text-color-dark-theme);
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
 }
 
 main img {
-    display: block;
+  display: block;
+  width: 340px;
+  height: 230px;
 
-    margin: 0 auto 45px;
+  margin: 0 auto 45px;
 }
 
+@media (min-width: 768px) {
+  header {
+    justify-content: space-between;
+    margin: 65px 60px 72px 60px;
+  }
+
+  .text {
+    width: 648px;
+    height: 290px;
+    margin: 0 60px 40px;
+  }
+
+  .text h1 {
+    width: 100%;
+    height: 158px;
+    margin: 0 0 24px;
+    font-size: var(--font-size-3xl);
+  }
+
+  .text p {
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-normal);
+    width: 100%;
+    margin: 0;
+  }
+
+  main a {
+    padding-top: 15px;
+    width: 340px;
+    height: 66px;
+    font-size: var(--font-size-base);
+  }
+
+  main img {
+  width: 660px;
+  height: 446px;
+
+}
+}
